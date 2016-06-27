@@ -1,15 +1,15 @@
 <template name="navbar">
-  <nav class = "blue darken-4">
+  <nav class = "black">
     <div class="nav-wrapper">
-          <li class style="padding-left:10px"><img clase = "responsive-img" src="images/fz.png" href="/" height = "64" width = "250">
+          <li class style="padding-left:10px"><img clase = "responsive-img" src="images/rm.png" href="/" height = "64" width = "300">
           <ul id="nav-mobile" class="right hide-on-med-and-down">
         <!-- <li>{{>loginButtons align="right"}}</li> -->
         {{#if currentUser}}
-          <li><a href="/" id="logout" class="waves-effect waves-light btn black">Logout</a></li>
-          <li><a href="/listing" class="waves-effect waves-light btn black">Your Timeline</a></li>
+          <li><a href="/" id="logout" class="waves-effect waves-light btn yellow">Logout</a></li>
+          <li><a href="/listing" class="waves-effect waves-light yellow">Your Timeline</a></li>
         {{else}}
-          <li><a href="/register" class="waves-effect waves-light btn black">Register</a></li>
-          <li><a href="/login" class="waves-effect waves-light btn black">Login</a></li>
+          <li><a href="/register" class="waves-effect waves-light btn yellow">Register</a></li>
+          <li><a href="/login" class="waves-effect waves-light btn red">Login</a></li>
         {{/if}}
       </ul></li>
       
