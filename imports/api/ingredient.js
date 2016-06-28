@@ -5,7 +5,7 @@ Schema.ingredient = new SimpleSchema({
   creator: {
     type: String,
     max: 100
-  }
+  },
   name: {
     type: String,
     max: 100
@@ -21,7 +21,7 @@ Schema.ingredient = new SimpleSchema({
 
 });
 
-Ingredients.attachSchema(Schema.post);
+Ingredients.attachSchema(Schema.ingredient);
 
 Meteor.methods({
   'ingredients.insert'(ingredient){
