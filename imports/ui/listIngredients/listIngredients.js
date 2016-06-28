@@ -1,5 +1,5 @@
-import "./listIngrdients.html";
-import { Ingredients } from '../../api/ingreidient.js';
+import "./listIngredients.html";
+import { Ingredients } from '../../api/ingredient.js';
 
 Template.listIngredients.onRendered(function(){
     $('.modal-trigger').leanModal();
